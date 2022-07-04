@@ -1,0 +1,109 @@
+body {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+.bg {
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+}
+form:first-child .change {
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+}
+
+.day-box {
+  padding: 16px;
+  cursor: pointer;
+}
+
+.day-name {
+  width: 128px;
+  height: 24px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 135%;
+
+  display: flex;
+  align-items: center;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.temp-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 128px;
+  height: 32px;
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.d-n-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 16px;
+
+  width: 56px;
+  height: 32px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.day-temp {
+  width: 23px;
+  height: 32px;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 135%;
+
+  display: flex;
+  align-items: center;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.night-temp {
+  width: 17px;
+  height: 24px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 135%;
+
+  display: flex;
+  align-items: center;
+
+  opacity: 0.5;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.icon {
+  margin-top: -10%;
+  margin-bottom: -10%;
+  width: auto;
+}
